@@ -8,7 +8,6 @@ export const NavList = styled.ul`
   font-weight: 500;
   font-size: 26px;
   color: var(--primary);
-  text-shadow: var(--main-shadow);
 `;
 
 export const NavItemLink = styled(NavLink)`

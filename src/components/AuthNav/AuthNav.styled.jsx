@@ -5,12 +5,11 @@ export const AuthList = styled.ul`
   display: flex;
   align-items: center;
   gap: 20px;
-
-  font-size: 18px;
+  font-size: 20px;
 `;
 
 export const AuthItem = styled(NavLink)`
-  color: var(--secondary);
+  color: var(--primary);
   text-decoration: none;
   transition: all 250ms ease-in-out;
 

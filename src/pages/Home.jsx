@@ -1,10 +1,10 @@
 export const HomePage = () => {
   return (
     <>
-      <h1>📱Your phonebook application</h1>
+      <h1>Your personal Contact Book</h1>
       <p>
-        What was the name of that person? A unified phone book with integrated keyword search is
-        extremely helpful when this question comes up.
+        A contact book in which you can store the phone numbers of your friends. The project is
+        written on React
       </p>
     </>
   );

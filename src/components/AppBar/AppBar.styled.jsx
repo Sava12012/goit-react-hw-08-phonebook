@@ -11,4 +11,5 @@ export const Header = styled.header`
 
   box-shadow: var(--main-shadow);
   border-radius: 10px;
+  background-color: var(--box);
 `;
