@@ -32,6 +32,7 @@ export const ContactForm = () => {
       name: values.name,
       number: values.number,
     };
+    console.log(values);
 
     if (contacts.find(contact => contact.name === newContact.name)) {
       return toast.error(`${newContact.name} is already in contacts`);
@@ -50,13 +51,11 @@ export const ContactForm = () => {
             <Input name="name" type="text" id="name" />
             <ErrorMsg name="name" component="div" />
           </Wrapper>
-
           <Wrapper>
             <Label htmlFor="number">Number:</Label>
             <Input name="number" type="tel" id="number" />
             <ErrorMsg name="number" component="div" />
           </Wrapper>
-
           <Btn type="submit">Add contact</Btn>
         </Container>
       </Formik>

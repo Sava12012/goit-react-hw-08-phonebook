@@ -16,6 +16,7 @@ export const register = createAsyncThunk('auth/register', async (credentials, th
 
     return data;
   } catch (error) {
+    console.log(error);
     return thunkAPI.rejectWithValue(error.message);
   }
 });
